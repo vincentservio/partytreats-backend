@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2021_01_14_024532) do
     t.text "name"
     t.text "email"
     t.text "event"
+    t.text "pastry_id"
   end
 
   create_table "pastries", force: :cascade do |t|

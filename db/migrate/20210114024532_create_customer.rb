@@ -4,6 +4,7 @@ class CreateCustomer < ActiveRecord::Migration[6.0]
       t.text :name
       t.text :email
       t.text :event
+      t.text :pastry_id
     end
   end
 end

@@ -46,6 +46,6 @@ class PastriesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def pastry_params
-      params.require(:pastry).permit(:type, :theme, :color, :size, :price)
+      params.require(:pastry).permit(:type, :theme, :color, :size, :price, :customer_id)
     end
 end
