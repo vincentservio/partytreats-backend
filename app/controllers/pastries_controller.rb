@@ -10,7 +10,7 @@ class PastriesController < ApplicationController
 
   # GET /pastries/1
   def show
-    render json: @pastry
+    render json: @pastry, each_serializer: nil
   end
 
   # POST /pastries

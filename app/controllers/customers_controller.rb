@@ -10,7 +10,7 @@ class CustomersController < ApplicationController
 
   # GET /customers/1
   def show
-    render json: customer
+    render json: customer, each_serializer: nil
   end
 
   # POST /customers
